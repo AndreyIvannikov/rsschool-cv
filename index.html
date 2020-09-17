@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body class="container">
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header-wrapper__avatar">
+                <img src="https://sun7-6.userapi.com/Rb8A9TnEo0mOAKCUySk50sUtPjtTMpJxGqV2aA/Q2SHQzotp9A.jpg" alt="аватар">
+            </div>
+            <div class="header-wrapper__title">
+                <h1 class="header__title"> Andrey Ivannikov</h1>
+                <span class="header__subtitle">aspiring frontend developer</span>
+            </div>
+        </div>
+        <div class="header__contacts">
+            <h2 class="title">Contacts:</h2>
+            <ul class="header__contacts-list">
+                <li class="contacts__item">phone: <a href="tel:+7(927)6031447"> +7(927)6031447</a></li>
+                <li class="contacts__item">email: <a href="email:+79276031447@ya.ru"> +79276031447@ya.ru</a></li>
+                <li class="contacts__item">social network: <a href="https://vk.com/andreyivannikof">vkontakte</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="skill">
+            <h2 class="title">Skills:</h2>
+        
+            <ul class="about__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>GIT</li>
+                <li>sass/scss</li>
+                <li>Retinization</li>
+                <li>Bootstrap</li>
+                <li>I am currently focusing on learning JS.</li>
+            </ul>
+        </section>
+        <section class="about ">
+            <h2 class="about__title">About:</h2>
+            <p class="about__text"> 
+                I am 26 years old, I consider purposefulness to be my strong point, if I have a task in front of me and I do not know how to solve it, then I will find a way to solve it. My main goal is to become a professional front end developer.
+                My level of English at the moment is A1, in parallel with the courses at RS School  I am studying English.
+             </p>
+            
+        </section>
+    </main>
+   
+
+    <style>
+        html{
+            background-color: #d0def5;     
+            padding-top: 40px;
+        }
+        body{
+            margin-top: 40px;
+            font-family: 'Oswald', sans-serif; 
+          }
+          ul{
+              margin: 0;
+              padding: 0;
+              list-style: none;
+          }
+          h1,p{
+              margin: 0;
+          }
+        .container{
+            width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        }
+        img{
+             max-width: 100%;
+        }
+        .header{
+            margin: 0 auto;
+            padding: 40px 40px 0px 40px;
+            box-sizing: border-box;
+        }
+        .header__contacts-list{
+            width: 600px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .header-wrapper__title{
+            margin-left: 70px;
+        }
+        .header__title{
+            font-size: 40px;
+        }
+        .header__subtitle{
+            font-size: 16px;
+        } 
+        .header-wrapper__avatar img{
+            width: 200px;
+            border-radius: 50%;
+        }
+        .header__wrapper{
+            display: flex;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0 40px 40px 40px;
+            box-sizing: border-box;
+        }
+        .skill{
+            width: 400px;
+        }
+        .contacts{
+            width: 300px;
+        }
+       
+        .contacts__list{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .about{
+            width: 400px;
+        }
+        
+        
+    </style>
+
+</body>
+</html>
