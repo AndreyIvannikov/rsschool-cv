@@ -1,1 +1,1 @@
-https://github.com/friitzMuller/rsschool-cv
+https://friitzmuller.github.io/rsschool-cv/
